@@ -16,5 +16,5 @@
     width: 100%;
     filter: contrast();
     filter: sepia(0.2) hue-rotate(180deg) saturate(2) brightness(1.1);
-    /* opacity: 0; */
+
 }
