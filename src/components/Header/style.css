@@ -1,0 +1,20 @@
+.header {
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+.titulo {
+    position: absolute;
+    color: black;
+}
+.fundo {
+    width: 100%;
+    filter: contrast();
+    filter: sepia(0.2) hue-rotate(180deg) saturate(2) brightness(1.1);
+    /* opacity: 0; */
+}
