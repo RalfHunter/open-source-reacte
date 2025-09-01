@@ -3,5 +3,41 @@
 }
 
 .search-body {
-    width: 80px;
+    display: flex;
+    width: max-content;
+    background-color: white;
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+}
+.search-body input[type="text"] {
+    /* border: 1px solid black; */
+    appearance: none;
+    all:unset;
+    border: none;
+    width: 688px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.formulario {
+    display: flex;
+}
+
+.search-body input[type="image"]{
+    width: 30px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    justify-self: center;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 20px;
 }
