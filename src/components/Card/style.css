@@ -1,18 +1,19 @@
 .card {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     color: #202124;
     width: 335px;
     border: 1px solid #CECECE;
-    /* background-color: red; */
     border-radius: 8px;
+    height: 495px;
 }
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 185px;
+    min-height: 185px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -21,11 +22,17 @@
     max-height: 116px;
 }
 .conteudo {
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 10px;
+    margin-bottom: 16px;
 }
 
 .baixo {
-    margin-top: 75px;
+    /* margin-top: 75px; */
 }
 .tags {
     display: flex;
@@ -47,15 +54,17 @@
     all: unset;
     border-radius: 4px;
     font-weight: bold;
-    color: white;
     padding: 10px;
-    background-color: #1C73E8;
     padding-left: 30px;
     padding-right: 30px;
+    color: #1C73E8;
+    border: 1px solid #CECECE;
     
 }
 .botao input[type="button"]:hover {
     cursor: pointer;
-    filter: brightness(0.7);
+    background-color: #1C73E8;
     transition: 0.3s;
+    color: #FFFFFF;
+    border-color: #FFF;
 }
