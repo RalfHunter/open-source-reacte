@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #202124;
+    padding: 30px;
+}
+.footer-conteudo {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    gap:70px;
+}
+.footer-conteudo div a {
+    color: white;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    line-height: 40px;
+}
+
+.link-especial a {
+    padding: 5px;
+    border-radius: 4px;
+}
+.link-especial a:hover {
+    background-color: #EADD67CC;
+    color: #202124;
+}
+.logos {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #38393F;
+}
